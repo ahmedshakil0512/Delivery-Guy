@@ -429,7 +429,7 @@ img.logo {
 .footer_info  i{
     width: 35px;
     height: 35px;
-    color: white;
+    color: #fff;
     background: red;
     padding: 8px;
     margin: 5px 4px;
@@ -453,7 +453,7 @@ img.logo {
     width: 30px;
     height: 30px;
     background: #00ACEE;
-    color: white;
+    color: #fff;
     padding: 7px;
     border-radius: 50%;
     font-size: 16px;
