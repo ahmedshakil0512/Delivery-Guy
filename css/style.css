@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    cursor: pointer;
+
+    
+}
+/* header_section starts here  */
+.navbar{
+    background: white;
+    box-shadow: 1px 2px 30px rgb(190, 187, 187);
+}
+img.logo {
+    width: 153px;
+    height: 38px;
+}
+.nav-links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #244361;
+    margin: 10px;
+    padding: 1px 8px;
+    transition: .3s;
+}
+.nav-links:hover{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    background: #f4822a;
+    border-radius: 25px;
+}
+.extra_link{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    background: #f4822a;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+/* header_section ends here  */
+
+/* home_section starts here */
+.home_section{
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #F9ECF1 100%);
+}
+.home_left img{
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+
+
+.home_contents{
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+}
+.home_right{
+    padding-left: 20px;
+}
+.home_right h2{
+    color: #f4822a;
+    font-size: 35px;
+}
+.hero{
+    font-size: 45px;
+    padding-right: 62px;
+    font-weight: bold;
+    color: #244361;
+}
+@media screen and (max-width:576px) {
+    .home_right h2{
+        font-size:28px;
+
+    }
+    .hero{
+        font-size: 35px;
+    }
+
+    
+}
+@media screen and (max-width:1025px){
+    .home_right h2{
+        font-size:25px;
+
+    }
+    .hero{
+        font-size: 30px;
+    }
+
+}
+.home_btn{
+    border:1px solid black;
+    padding:6px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.main_box{
+    position: relative;
+}
+.home_right h3{
+    position: absolute;
+    color: #f2f2f2;
+    background: rgb(23, 162, 226);
+    border: 1px solid black;
+    top: -1.5px;
+    padding: 10px 13px;
+    border-radius: 25px;
+    font-size: 17px;
+    left: 300px;
+    transition: .3s;
+    cursor: pointer;
+}
+.home_right h3:hover{
+    color: white;
+    background: #f4822a;
+    
+    
+}
+
+/* home_section ends here */
+/* services_section starts here  */
+.services_section{    
+    background: linear-gradient(to top, #fff , #53bed173 45%, #faffff 100%);
+   
+}
+.services_title h3{
+    color: #8a7a9b;
+
+}
+.services_title h2{
+   color: rgb(9, 65, 117);
+}
+.services_content{
+    padding: 1% 10%;
+}
+.blog{
+    text-align: center;
+    padding: 10px;
+    border:1px solid gold;
+    box-shadow: 1px 2px 15px rgb(175, 171, 171);
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: .3s;
+}
+.blog img{
+    width: 110px;
+    display:block;
+    margin: auto;
+}
+.blog h2{
+    font-size: 28px;
+}
+.blog p{
+    font-size: 17px;
+    padding: 6px 12px;
+}
+.blog:hover{
+    transform: scale(1.05);
+
+    
+}
+
+/* services_section ends here  */
+/* pricing_section starts here  */
+.pricing_section{
+    background-image: linear-gradient(to top, #A7E2E8 0%, #F8ebf0 100%);
+}
+.Pricing_Box{
+    text-align: center;
+    padding: 40px 15px;
+    background-image: linear-gradient(
+        135deg, #f5f7fa 0%, #c3cfe2 100%);
+            box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+            backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+.pricing_title{
+    display: flex;
+}
+.pricing_title li{
+    display: inline-block;
+    list-style: none;
+
+}
+.pb{
+    border:2px solid rgb(230, 216, 24);
+    border-radius: 25px;
+    padding:  10px 5px;
+}
+.pricing_title a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background: #2ab4f4;
+    color:white;
+    border-radius: 25px;
+    margin: 5px 15px;
+    padding: 4px 8px;
+}
+.pricing_list li{
+    list-style: none;
+}
+.money {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.moneyP{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pricing_list li{
+    margin:6px 0px;
+}
+.pricing_Btn{
+    width: 100%;
+    border: thin;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background:#2ab4f4;
+    transition:.3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pricing_Btn:hover{
+    color: white;
+    background:#e7d169;
+}
+/* pricing_section ends here  */
+
+
+/* @media screen and (min-width:768px){
+    .home_left img{
+       
+        display: block;
+        margin: auto;
+        left: 280px;
+    }
+}
+@media screen and (max-width:576px){
+    .home_left img{
+        width: 500px;
+        display: block;
+        margin: auto;
+
+    }
+    .home_right h3{
+        left: 280px;
+ 
+    }
+} */
+/* clients_section starts here  */
+.clients_section{
+    background: linear-gradient(to top, #74B7C7 0%, #A9e2e8 100%);
+    padding-top: 50px;
+
+}
+.client_Box{
+    text-align: center;
+    border: 1px solid gold;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.client_Box i{
+    color: #2ab4f4;
+    font-size: 50px;
+    padding: 10px;
+}
+.client_Box h3{
+    color: rgb(11, 190, 86);
+}
+.client_Box h5{
+    color: gray;
+}
+/* clients_section ends here  */
+/* about_section starts here  */
+.about_section{
+    background: linear-gradient(to top, #568AB9 0%, #75b8c8 100%);
+    padding: 60px 0px;
+}
+.about_right{
+    padding: 20px;
+}
+.about_right h2{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about_right p{
+    font-size: 18px;
+}
+.about_Btn{
+    border: none;
+    background: #2ab4f4;
+    padding: 4px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.about_Btn:hover{
+    background: white;
+    color: #2ab4f4;
+    box-shadow: 1px 2px 30px gray;
+}
+
+/* about_section ends here  */
+/* team_section starts here  */
+.title1{
+    color: #245999;
+}
+.title2{
+    color: #ec7e29;
+
+}
+.team_section{
+    background-image: linear-gradient(to top, #757DD6 0%, #578cba 100%);
+    padding: 90px 0px;
+}
+.teamBox{
+    position: relative;
+    text-align: center;
+    padding: 30px 20px ;
+    background: rgba( 255, 255, 255, 0.35 );
+    margin-bottom: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.teamBox img{
+    background:rgb(38, 90, 202);
+    padding: 10px;
+    border-radius: 10px;
+}
+.teamBox h4{
+    text-transform: uppercase;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.social_icons{
+    position: absolute;
+    top:30px;
+    display: grid;
+    right: 20px;
+    opacity: 0;
+    transform: translateX(6px);
+    transition: .5s;
+}
+.social_icons i{
+    width: 38px;
+    height: 38px;
+    color: white;
+    background: red;
+    padding: 8px;
+    margin: 5px 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.social_icons i:nth-child(1){
+    background:#4267B2;
+}
+.social_icons i:nth-child(2){
+    background:#00ACEE;
+}
+.social_icons i:nth-child(3){
+    background:#fbad50;
+}
+.social_icons i:nth-child(4){
+    background:#0077b5;
+}
+.teamBox:hover .social_icons{
+    
+    opacity: 1;
+    transform: translateX(-6px);
+}
+/* team_section ends here  */
+/* footer_section starts here  */
+.footer_section{
+    background-image: linear-gradient(to top, #578cba 0%, #757DD6 100%);
+}
+.footer_Box1 p{
+    color: black;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.footer_links li{
+    list-style: none;
+}
+.footer_links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: .3s;
+    margin-left: -26px;
+
+}
+.footer_links li a:hover{
+    text-decoration: underline;
+}
+.boxs{
+    margin-bottom: 40px;
+}
+.boxs h3{
+    color: #245999;
+    padding: 7px;
+    border-bottom:  2px solid #ec7e29;
+
+}
+.footer_info{
+    display:flex;
+
+}
+.footer_info  i{
+    width: 35px;
+    height: 35px;
+    color: wheat;
+    background: red;
+    padding: 8px;
+    margin: 5px 4px;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+.footer_info i:nth-child(1){
+    background:#4267B2;
+}
+.footer_info i:nth-child(2){
+    background:#00ACEE;
+}
+.footer_info i:nth-child(3){
+    background:#fbad50;
+}
+.footer_info i:nth-child(4){
+    background:#0077b5;
+}
+.f_icons{
+    width: 30px;
+    height: 30px;
+    background: #00ACEE;
+    color: wheat;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.creadit{
+    color: #ec7e29;
+
+}
+/* footer_section ends here */
